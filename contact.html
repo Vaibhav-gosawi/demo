@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="unversity.css">
+    <title> big university webside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="unversity_web.html"> <img src="images/logo.png"></a>
+
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="unversity_web.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="coures.html">COURCES</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+
+                </ul>    
+                    
+
+            </div>
+            <i class="fa fa-bars " onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact us</h1>
+
+    </section>
+    <!----------------------contact us-------------------------------->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1129606533327!2d77.20687634958985!3d28.62637638233396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd9eccc07d2d%3A0x6db044e71b8e8e3b!2sGurudwara%20Shri%20Bangla%20Sahib!5e0!3m2!1sen!2sin!4v1669193306078!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>xyz road abc buildind</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>8806920735</h5>
+                        <p>monday to saturday 10am to 6am</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>vaibhavgosawi358@gmaile.com</h5>
+                        <p>Email as your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email"required>
+                    <input type="subject" placeholder="Enter your subject"required>
+                    <textarea  rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">
+                        Send Message
+
+                    </button>
+
+
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro iusto optio impedit ratione aliquam, vel
+            exercitationem modi natus nobis rem fugit eligendi mollitia sed veritatis nostrum, maiores nisi suscipit
+            magnam?</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+
+    </section>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    <!-- ------------ javascript -------------------->
+
+    <script>
+
+        let navLink = document.getElementById("navLink");
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
